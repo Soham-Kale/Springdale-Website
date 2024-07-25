@@ -1,4 +1,10 @@
 import React from 'react';
+import principle from "../assets/principle.jpg"
+import vice from "../assets/vicePrinciple.jpg"
+import english from "../assets/english.jpg"
+import math from "../assets/english.jpg"
+import sci from "../assets/scienceTeacher.jpg"
+import cs from "../assets/csTech.jpg"
 
 const Faculty = () => {
     const facultyMembers = [
@@ -7,42 +13,42 @@ const Faculty = () => {
             position: 'Principal',
             qualification: 'M.Ed',
             experience: '20 years of experience in educational administration.',
-            image: 'src/assets/principle.jpg', // Placeholder image URL
+            image: principle, // Placeholder image URL
         },
         {
             name: 'Jane Smith',
             position: 'Vice Principal',
             qualification: 'M.Sc. in Physics',
             experience: '15 years of teaching experience.',
-            image: 'src/assets/vicePrinciple.jpg',
+            image: vice,
         },
         {
             name: 'Emily Johnson',
             position: 'English Teacher',
             qualification: 'M.A. in English',
             experience: '10 years of teaching experience.',
-            image: 'src/assets/english.jpg',
+            image: english,
         },
         {
             name: 'Michael Brown',
             position: 'Mathematics Teacher',
             qualification: 'M.Sc. in Mathematics',
             experience: '8 years of teaching experience.',
-            image: 'src/assets/math.jpg',
+            image: math,
         },
         {
             name: 'Sophia Davis',
             position: 'Science Teacher',
             qualification: 'M.Sc. in Chemistry',
             experience: '12 years of teaching experience.',
-            image: 'src/assets/scienceTeacher.jpg',
+            image: sci,
         },
         {
             name: 'David Wilson',
             position: 'Computer Science Teacher',
             qualification: 'B.Tech in Computer Science',
             experience: '5 years of teaching experience.',
-            image: 'src/assets/csTech.jpg',
+            image: cs,
         },
     ];
 
