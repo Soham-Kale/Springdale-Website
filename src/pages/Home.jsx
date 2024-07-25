@@ -1,18 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import school from "../assets/school.jpg"
+import sport from "../assets/sport.jpeg"
+import exhibition from "../assets/exhibition.jpg"
+import cultural from "../assets/cultural.jpg"
 
 const Home = () => {
   const carouselItems = [
     {
-      image: 'src/assets/sport.jpeg', // Replace with actual image URL
+      image: sport, // Replace with actual image URL
       caption: 'Annual Sports Day - Celebrating Excellence in Sports',
     },
     {
-      image: 'src/assets/exhibition.jpg',
+      image: exhibition,
       caption: 'Science Exhibition - Showcasing Student Innovations',
     },
     {
-      image: 'src/assets/cultural.jpg',
+      image: cultural,
       caption: 'Cultural Fest - Embracing Diversity and Creativity',
     },
   ];
@@ -26,7 +30,7 @@ const Home = () => {
       <section className="school-image my-8">
         <div className="container mx-auto">
           <img
-            src="src/assets/school.jpg" // Replace with actual school image URL
+            src={school} // Replace with actual school image URL
             alt="Springdale Public School"
             className="w-full h-auto object-cover rounded-lg shadow-lg"
           />
